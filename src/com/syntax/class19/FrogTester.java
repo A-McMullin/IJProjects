@@ -1,4 +1,6 @@
-package com.syntax.HW;
+package com.syntax.class19;
+
+import com.syntax.class19.Frog;
 
 public class FrogTester {
     public static void main(String[] args) {
