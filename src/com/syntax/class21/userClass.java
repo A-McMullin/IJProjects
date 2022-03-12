@@ -9,9 +9,7 @@ public class userClass {
         this.name = name;
         this.mobileNumber = mobileNumber;
     }
-    void userClass(){
 
-    }
 }
 class userInfo extends userClass {
     String address;

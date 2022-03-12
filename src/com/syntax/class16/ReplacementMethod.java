@@ -5,7 +5,7 @@ public class ReplacementMethod {
     //sout is shortcut for sysout
     public static void main(String[] args) {
         String st = "Batch 12 is pretty decent";
-        System.out.println(st.replace("decent", "great"));
+        System.out.println(st.replace("e", "great"));
 
         String str = "Hello Syntax friends";
         System.out.println(str.replace("Hello", "Welcome"));

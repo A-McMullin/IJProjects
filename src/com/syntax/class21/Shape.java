@@ -2,18 +2,19 @@ package com.syntax.class21;
 
 public class Shape {
 
-    int radius;
+    double radius;
 
-    public Shape(int radius) {
+    public Shape(double radius) {
         this.radius = radius;
     }
 }
 class Circle extends Shape {
-    Circle(int radius) {
+    Circle(double radius) {
         super(radius);
     }
         void testArea() {
-            System.out.println("The area of the circle is: "+(radius*radius)*3.14);
+
+        System.out.println("The area of the circle is: "+(radius*radius)*Math.PI);
     }
 }
 class Area {
