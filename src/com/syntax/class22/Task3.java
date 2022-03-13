@@ -10,13 +10,13 @@ public class Task3 {
     phone("Samsung",8,"Note 10");
     phone("Note 10", "Samsung", 8);
     }
-    static void phone (String brand, int ram, String model) {
+    private static void phone (String brand, int ram, String model) {
         System.out.println("Brand: "+brand+" Ram: "+ram+" Model: "+model);
     }
-    static void phone (int ram, String model, String brand) {
+    private static void phone (int ram, String model, String brand) {
         System.out.println("Ram: "+ram+" Model: "+model+" Brand: "+brand);
     }
-    static void phone (String model, String brand, int ram) {
+    private static void phone (String model, String brand, int ram) {
         System.out.println("Model: "+model+" Brand: "+brand+" Ram: "+ram);
     }
 }
