@@ -28,12 +28,12 @@ public class BrowserTester {
         ie.testThePage();
         ie.closeBrowser();
        */
-        Browser browser=(new GoogleChrome(), new FireFox(), new Safari());
-        for (Browser b : browser) {
-            b.openBrowser();
-            b.loadPage();
-            b.testThePage();
-            b.closeBrowser();
+       // Browser browser=(new GoogleChrome(), new FireFox(), new Safari());
+       // for (Browser b : browser) {
+         //   b.openBrowser();
+            //b.loadPage();
+          //  b.testThePage();
+          //  b.closeBrowser();
         }
     }
-}
+
